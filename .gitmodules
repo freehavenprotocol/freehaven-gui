@@ -1,4 +1,4 @@
 [submodule "monero"]
 	path = monero
-	url = https://github.com/havenprotocol/haven.git
+	url = https://github.com/freehavenprotocol/freehaven.git
   ignore = all
