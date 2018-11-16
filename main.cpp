@@ -67,7 +67,7 @@
 void messageHandler(QtMsgType type, const QMessageLogContext &context, const QString &msg)
 {
     // Send all message types to logger
-    Monero::Wallet::debug(msg.toStdString());
+    // Monero::Wallet::debug(msg.toStdString());
 }
 
 int main(int argc, char *argv[])
@@ -80,16 +80,16 @@ int main(int argc, char *argv[])
 //#endif
 
     // Log settings
-    Monero::Wallet::init(argv[0], "haven-wallet-gui");
+    Monero::Wallet::init(argv[0], "freehaven-wallet-gui");
 //    qInstallMessageHandler(messageHandler);
 
     MainApp app(argc, argv);
 
     qDebug() << "app startd";
 
-    app.setApplicationName("haven");
+    app.setApplicationName("freehaven");
     app.setOrganizationDomain("havenprotocol.com");
-    app.setOrganizationName("haven-protocol");
+    app.setOrganizationName("freehaven-protocol");
 
     filter *eventFilter = new filter;
     app.installEventFilter(eventFilter);
@@ -229,7 +229,7 @@ int main(int argc, char *argv[])
 
 
     if (!moneroAccountsRootDir.empty()) {
-        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/Haven/wallets";
+        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/Freehaven/wallets";
         engine.rootContext()->setContextProperty("moneroAccountsDir", moneroAccountsDir);
     }
 
@@ -240,7 +240,7 @@ int main(int argc, char *argv[])
         accountName = qgetenv("USERNAME"); // Windows
     }
     if (accountName.isEmpty()) {
-        accountName = "My Haven Account";
+        accountName = "My FreeHaven Account";
     }
 
     engine.rootContext()->setContextProperty("defaultAccountName", accountName);

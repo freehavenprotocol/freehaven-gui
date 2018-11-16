@@ -251,7 +251,7 @@ Rectangle {
                   id: addressLine
                   Layout.fillWidth: true
                   anchors.topMargin: 5 * scaleRatio
-                  placeholderText: "hvx..."
+                  placeholderText: "fh..."
                   // validator: RegExpValidator { regExp: /[0-9A-Fa-f]{95}/g }
               }
 

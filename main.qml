@@ -42,7 +42,7 @@ import "wizard"
 
 ApplicationWindow {
     id: appWindow
-    title: "Haven"
+    title: "FreeHaven"
 
     property var currentItem
     property bool whatIsEnable: false
@@ -71,7 +71,7 @@ ApplicationWindow {
     property bool remoteNodeConnected: false
     property bool androidCloseTapped: false;
     // Default daemon addresses
-    readonly property string localDaemonAddress : !persistentSettings.testnet ? "localhost:17750" : "localhost:27750"
+    readonly property string localDaemonAddress : !persistentSettings.testnet ? "localhost:18850" : "localhost:27750"
     property string currentDaemonAddress;
     property bool startLocalNodeCancelled: false
 
@@ -508,7 +508,7 @@ ApplicationWindow {
         currentWallet.startRefresh();
         daemonRunning = false;
         informationPopup.title = qsTr("Daemon failed to start") + translationManager.emptyString;
-        informationPopup.text  = qsTr("Please check your wallet and daemon log for errors. You can also try to start %1 manually.").arg((isWindows)? "havend.exe" : "havend")
+        informationPopup.text  = qsTr("Please check your wallet and daemon log for errors. You can also try to start %1 manually.").arg((isWindows)? "freehavend.exe" : "havend")
         informationPopup.icon  = StandardIcon.Critical
         informationPopup.onCloseCallback = null
         informationPopup.open();
@@ -953,7 +953,7 @@ ApplicationWindow {
         property bool   allow_background_mining : false
         property bool   miningIgnoreBattery : true
         property bool   testnet: false
-        property string daemon_address: testnet ? "localhost:27750" : "localhost:17750"
+        property string daemon_address: testnet ? "localhost:27750" : "localhost:18850"
         property string payment_id
         property int    restore_height : 0
         property bool   is_recovering : false
@@ -1228,7 +1228,7 @@ ApplicationWindow {
 //                PropertyChanges { target: frameArea; blocked: true }
                 PropertyChanges { target: titleBar; visible: true }
 //                PropertyChanges { target: titleBar; y: 0 }
-                PropertyChanges { target: titleBar; title: qsTr("Haven Protocol") + translationManager.emptyString }
+                PropertyChanges { target: titleBar; title: qsTr("FreeHaven Protocol") + translationManager.emptyString }
                 PropertyChanges { target: mobileHeader; visible: isMobile ? true : false }
             }
         ]
@@ -1635,7 +1635,7 @@ ApplicationWindow {
           var hash = parts[1]
           var user_url = parts[2]
           var auto_url = parts[3]
-          var msg = qsTr("New version of haven-wallet-gui is available: %1<br>%2").arg(version).arg(user_url) + translationManager.emptyString
+          var msg = qsTr("New version of freehaven-wallet-gui is available: %1<br>%2").arg(version).arg(user_url) + translationManager.emptyString
           notifier.show(msg)
         }
         else {

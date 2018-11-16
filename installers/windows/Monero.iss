@@ -11,7 +11,7 @@ AppName=Haven GUI Wallet
 AppVersion=1.0.0
 DefaultDirName={pf}\Haven GUI Wallet
 DefaultGroupName=Haven GUI Wallet
-UninstallDisplayIcon={app}\haven-wallet-gui.exe
+UninstallDisplayIcon={app}\freehaven-wallet-gui.exe
 PrivilegesRequired=admin
 ArchitecturesInstallIn64BitMode=x64
 ArchitecturesAllowed=x64
@@ -50,29 +50,29 @@ Source: "ReadMe.htm"; DestDir: "{app}"; Flags: ignoreversion
 Source: "FinishImage.bmp"; Flags: dontcopy
 
 ; haven GUI wallet
-Source: "bin\haven-wallet-gui.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "bin\freehaven-wallet-gui.exe"; DestDir: "{app}"; Flags: ignoreversion
 
 ; haven GUI wallet log file
 ; The GUI wallet does not have the "--log-file" command-line option of the CLI wallet and insists to put the .log beside the .exe
 ; so pre-create the file and give the necessary permissions to the wallet to write into it
 ; Flag is "onlyifdoesntexist": We do not want to overwrite an already existing log
-Source: "haven-wallet-gui.log"; DestDir: "{app}"; Flags: onlyifdoesntexist; Permissions: users-modify
+Source: "freehaven-wallet-gui.log"; DestDir: "{app}"; Flags: onlyifdoesntexist; Permissions: users-modify
 
 ; haven CLI wallet
-Source: "bin\haven-wallet-cli.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "bin\freehaven-wallet-cli.exe"; DestDir: "{app}"; Flags: ignoreversion
 
 ; Haven wallet RPC interface implementation
-Source: "bin\haven-wallet-rpc.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "bin\freehaven-wallet-rpc.exe"; DestDir: "{app}"; Flags: ignoreversion
 
 ; Haven daemon
-Source: "bin\havend.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "bin\freehavend.exe"; DestDir: "{app}"; Flags: ignoreversion
 
 ; Haven daemon wrapped in a batch file that stops before the text window closes, to see any error messages
-Source: "haven-daemon.bat"; DestDir: "{app}"; Flags: ignoreversion;
+Source: "freehaven-daemon.bat"; DestDir: "{app}"; Flags: ignoreversion;
 
 ; Haven blockchain utilities
-Source: "bin\haven-blockchain-export.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "bin\haven-blockchain-import.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "bin\freehaven-blockchain-export.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "bin\freehaven-blockchain-import.exe"; DestDir: "{app}"; Flags: ignoreversion
 
 ; was present in 0.10.3.1, not present anymore in 0.11.1.0
 ; Source: "bin\haven-utils-deserialize.exe"; DestDir: "{app}"; Flags: ignoreversion

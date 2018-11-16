@@ -34,7 +34,7 @@ DaemonManager *DaemonManager::instance(const QStringList *args)
 
 bool DaemonManager::start(const QString &flags, bool testnet, const QString &dataDir)
 {
-    // prepare command line arguments and pass to havend
+    // prepare command line arguments and pass to freehavend
     QStringList arguments;
 
     // Start daemon with --detach flag on non-windows platforms
@@ -71,7 +71,7 @@ bool DaemonManager::start(const QString &flags, bool testnet, const QString &dat
 
 
 
-    qDebug() << "starting havend " + m_havend;
+    qDebug() << "starting freehavend " + m_havend;
     qDebug() << "With command line arguments " << arguments;
 
     m_daemon = new QProcess();
@@ -81,7 +81,7 @@ bool DaemonManager::start(const QString &flags, bool testnet, const QString &dat
     connect (m_daemon, SIGNAL(readyReadStandardOutput()), this, SLOT(printOutput()));
     connect (m_daemon, SIGNAL(readyReadStandardError()), this, SLOT(printError()));
 
-    // Start havend
+    // Start freehavend
     bool started = m_daemon->startDetached(m_havend, arguments);
 
     // add state changed listener
@@ -163,9 +163,9 @@ bool DaemonManager::stopWatcher(bool testnet) const
             if(counter >= 5) {
                 qDebug() << "Killing it! ";
 #ifdef Q_OS_WIN
-                QProcess::execute("taskkill /F /IM havend.exe");
+                QProcess::execute("taskkill /F /IM freehavend.exe");
 #else
-                QProcess::execute("pkill havend");
+                QProcess::execute("pkill freehavend");
 #endif
             }
 
@@ -295,9 +295,9 @@ DaemonManager::DaemonManager(QObject *parent)
 
     // Platform depetent path to havend
 #ifdef Q_OS_WIN
-    m_havend = QApplication::applicationDirPath() + "/havend.exe";
+    m_havend = QApplication::applicationDirPath() + "/freehavend.exe";
 #elif defined(Q_OS_UNIX)
-    m_havend = QApplication::applicationDirPath() + "/havend";
+    m_havend = QApplication::applicationDirPath() + "/freehavend";
 #endif
 
     if (m_havend.length() == 0) {

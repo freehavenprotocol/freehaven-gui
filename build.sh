@@ -2,7 +2,8 @@
 
 BUILD_TYPE=$1
 source ./utils.sh
-platform=$(get_platform)
+platform=mingw64
+#$(get_platform)
 # default build type
 if [ -z $BUILD_TYPE ]; then
     BUILD_TYPE=release
@@ -64,7 +65,7 @@ source ./utils.sh
 pushd $(pwd)
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 MONERO_DIR=monero
-MONEROD_EXEC=havend
+MONEROD_EXEC=freehavend
 
 MAKE='make'
 if [[ $platform == *bsd* ]]; then
@@ -93,7 +94,7 @@ fi
 if [ "$platform" == "darwin" ]; then
     BIN_PATH=$BIN_PATH/haven-wallet-gui.app/Contents/MacOS/
 elif [ "$platform" == "mingw64" ] || [ "$platform" == "mingw32" ]; then
-    MONEROD_EXEC=havend.exe
+    MONEROD_EXEC=freehavend.exe
 fi
 
 # force version update
@@ -109,7 +110,7 @@ if ! QMAKE=$(find_command qmake qmake-qt5); then
     echo "Failed to find suitable qmake command."
     exit 1
 fi
-$QMAKE ../haven-wallet-gui.pro "$CONFIG" || exit
+$QMAKE ../freehaven-wallet-gui.pro "$CONFIG" || exit
 $MAKE || exit
 
 # Copy havend to bin folder
