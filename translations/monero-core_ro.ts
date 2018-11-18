@@ -117,8 +117,8 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
-        <source>Starting Haven daemon in %1 seconds</source>
-        <translation>Serviciul Haven pornește în %1 secunde</translation>
+        <source>Starting FreeHaven daemon in %1 seconds</source>
+        <translation>Serviciul FreeHaven pornește în %1 secunde</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="115"/>
@@ -430,8 +430,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Haven network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Haven. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Minatul cu propriul calculator ajută la creșterea puterii rețelei Haven. Cu cât se minează mai mult, cu atât rețeaua e mai greu de atacat și fiecare miner ajută.&lt;br&gt; &lt;br&gt;Minatul îți oferă de asemenea o mică șansă de a câștiga un pic de Haven. Calculatorul tău va crea hash-uri în căutarea de soluții pentru blocuri. Dacă descoperi un bloc, primești recompensa aferentă. Succes!</translation>
+        <source>Mining with your computer helps strengthen the FreeHaven network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some FreeHaven. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Minatul cu propriul calculator ajută la creșterea puterii rețelei FreeHaven. Cu cât se minează mai mult, cu atât rețeaua e mai greu de atacat și fiecare miner ajută.&lt;br&gt; &lt;br&gt;Minatul îți oferă de asemenea o mică șansă de a câștiga un pic de FreeHaven. Calculatorul tău va crea hash-uri în căutarea de soluții pentru blocuri. Dacă descoperi un bloc, primești recompensa aferentă. Succes!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -943,8 +943,8 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
-        <source>Embedded Haven version: </source>
-        <translation>Versiune Haven integrată: </translation>
+        <source>Embedded FreeHaven version: </source>
+        <translation>Versiune FreeHaven integrată: </translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="509"/>
@@ -1574,13 +1574,13 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Haven preferences</source>
-        <translation>Aproape am terminat - mai avem de configurat câteva setări Haven</translation>
+        <source>We’re almost there - let’s just configure some FreeHaven preferences</source>
+        <translation>Aproape am terminat - mai avem de configurat câteva setări FreeHaven</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Haven blockchain?</source>
-        <translation>Pornește blockchain-ul Haven?</translation>
+        <source>Kickstart the FreeHaven blockchain?</source>
+        <translation>Pornește blockchain-ul FreeHaven?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="115"/>
@@ -1594,8 +1594,8 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Haven instance. However, storing the full blockchain is beneficial to the security of the Haven network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>Modul de economisire spațiu pe disc folosește mult mai puțin spațiu, dar la fel de multă lățime de bandă ca și o instanță normală Haven. Totuși, stocarea întregului blockchain este benefică pentru securitatea rețelei Haven. Dacă folosești un dispozitiv cu spațiu de stocare limitat, această setare este potrivită pentru tine.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular FreeHaven instance. However, storing the full blockchain is beneficial to the security of the FreeHaven network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>Modul de economisire spațiu pe disc folosește mult mai puțin spațiu, dar la fel de multă lățime de bandă ca și o instanță normală FreeHaven. Totuși, stocarea întregului blockchain este benefică pentru securitatea rețelei FreeHaven. Dacă folosești un dispozitiv cu spațiu de stocare limitat, această setare este potrivită pentru tine.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="157"/>
@@ -1604,8 +1604,8 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Haven network, and also pays a small reward for the work done. This option will let Haven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Minatul securizează rețeaua Haven și, de asemenea, oferă o mică sumă ca recompensă pentru munca efectuată. Această setare permite minatul Haven atunci când calculatorul este inactiv și conectat la rețeaua electrică. Minatul se va opri atunci când reîncepi să folosești calculatorul.</translation>
+        <source>Mining secures the FreeHaven network, and also pays a small reward for the work done. This option will let FreeHaven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Minatul securizează rețeaua FreeHaven și, de asemenea, oferă o mică sumă ca recompensă pentru munca efectuată. Această setare permite minatul FreeHaven atunci când calculatorul este inactiv și conectat la rețeaua electrică. Minatul se va opri atunci când reîncepi să folosești calculatorul.</translation>
     </message>
 </context>
 <context>
@@ -1628,8 +1628,8 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Haven development is solely supported by donations</source>
-        <translation>Dezvoltarea Haven este susținută exclusiv prin donații</translation>
+        <source>FreeHaven development is solely supported by donations</source>
+        <translation>Dezvoltarea FreeHaven este susținută exclusiv prin donații</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -1643,8 +1643,8 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Haven development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Haven development.</source>
-        <translation>Pentru fiecare tranzacție se plătește un mic comision de tranzacție. Această setare îți permite să adaugi o mică sumă la tranzacție, ca procent din comisionul respectiv, pentru a susține dezvoltarea Haven. De exemplu, pentru un comision de 0.005 XMR, o donație automată de 50% adaugă 0.0025 XMR pentru susținerea dezvoltării Haven.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support FreeHaven development. For instance, a 50% autodonation take a transaction fee of 0.005 XFH and add a 0.0025 XFH to support FreeHaven development.</source>
+        <translation>Pentru fiecare tranzacție se plătește un mic comision de tranzacție. Această setare îți permite să adaugi o mică sumă la tranzacție, ca procent din comisionul respectiv, pentru a susține dezvoltarea FreeHaven. De exemplu, pentru un comision de 0.005 XFH, o donație automată de 50% adaugă 0.0025 XFH pentru susținerea dezvoltării FreeHaven.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1653,8 +1653,8 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Haven network, and also pays a small reward for the work done. This option will let Haven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Minatul securizează rețeaua Haven și, de asemenea, oferă o mică sumă ca recompensă pentru munca efectuată. Această setare permite minatul Haven atunci când calculatorul este inactiv și conectat la rețeaua electrică. Minatul se va opri atunci când reîncepi să folosești calculatorul.</translation>
+        <source>Mining secures the FreeHaven network, and also pays a small reward for the work done. This option will let FreeHaven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Minatul securizează rețeaua FreeHaven și, de asemenea, oferă o mică sumă ca recompensă pentru munca efectuată. Această setare permite minatul FreeHaven atunci când calculatorul este inactiv și conectat la rețeaua electrică. Minatul se va opri atunci când reîncepi să folosești calculatorul.</translation>
     </message>
 </context>
 <context>
@@ -1738,8 +1738,8 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE HAVEN</source>
-        <translation>FOLOSEȘTE HAVEN</translation>
+        <source>USE FreeHaven</source>
+        <translation>FOLOSEȘTE FreeHaven</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="383"/>
@@ -1834,8 +1834,8 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Haven!</source>
-        <translation>Bine ai venit la Haven!</translation>
+        <source>Welcome to FreeHaven!</source>
+        <translation>Bine ai venit la FreeHaven!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="98"/>
@@ -1909,8 +1909,8 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Haven!</source>
-        <translation>Bine ai venit la Haven!</translation>
+        <source>Welcome to FreeHaven!</source>
+        <translation>Bine ai venit la FreeHaven!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="89"/>
@@ -2063,13 +2063,13 @@ Ringsize: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1355"/>
-        <source>New version of haven-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>O nouă versiune haven-wallet-gui este disponiilă: %1&lt;br&gt;%2</translation>
+        <source>New version of FreeHaven-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>O nouă versiune FreeHaven-wallet-gui este disponiilă: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="728"/>
-        <source>This address received %1 haven, with %2 confirmation(s).</source>
-        <translation>Această adresă a primit %1 haven, având %2 confirmări.</translation>
+        <source>This address received %1 FreeHaven, with %2 confirmation(s).</source>
+        <translation>Această adresă a primit %1 FreeHaven, având %2 confirmări.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="523"/>
@@ -2124,8 +2124,8 @@ Descriere: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="723"/>
-        <source>This address received %1 haven, but the transaction is not yet mined</source>
-        <translation>Această adresă a primit %1 haven, dar tranzacția nu a fost încă minată</translation>
+        <source>This address received %1 FreeHaven, but the transaction is not yet mined</source>
+        <translation>Această adresă a primit %1 FreeHaven, dar tranzacția nu a fost încă minată</translation>
     </message>
     <message>
         <location filename="../main.qml" line="732"/>
@@ -2154,8 +2154,8 @@ Descriere: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1017"/>
-        <source>Haven</source>
-        <translation>Haven</translation>
+        <source>FreeHaven</source>
+        <translation>FreeHaven</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1065"/>

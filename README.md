@@ -1,29 +1,32 @@
-# Haven GUI
+# FreeHaven GUI
+
+Copyright (c) 2018, FreeHaven Protocol
 
 Copyright (c) 2017-2018, Haven Protocol
+
 Copyright (c) 2014-2017, The Monero Project
 
 ## Resources
 
-- Web: [havenprotocol.com](https://havenprotocol.com)
-- Reddit: [/r/havenprotocol](https://www.reddit.com/r/havenprotocol/)
-- GitHub: [https://github.com/havenprotocol/haven](https://github.com/havenprotocol/haven)
+- Web: http://freehavenprotocol.space/
+- Reddit: N/A
+- GitHub: [https://github.com/freehavenprotocol/haven](https://github.com/freehavenprotocol/freehaven)
 
 
 ## Introduction
 
-Haven is an experimental cryptocurrency that proposes a new way of achieving a stable fiat value storage while still having free reign to be traded at market value.
+FreeHaven is an experimental cryptocurrency that proposes a new way of achieving a stable fiat value storage while still having free reign to be traded at market value.
 
 
-**Privacy:** Haven uses a cryptographically sound system to allow you to send and receive funds without your transactions being easily revealed on the blockchain (the ledger of transactions that everyone has). This ensures that your purchases, receipts, and all transfers remain absolutely private by default.
+**Privacy:** FreeHaven uses a cryptographically sound system to allow you to send and receive funds without your transactions being easily revealed on the blockchain (the ledger of transactions that everyone has). This ensures that your purchases, receipts, and all transfers remain absolutely private by default.
 
 **Security:** Using the power of a distributed peer-to-peer consensus network, every transaction on the network is cryptographically secured. Individual wallets have a 25 word mnemonic seed that is only displayed once, and can be written down to backup the wallet. Wallet files are encrypted with a passphrase to ensure they are useless if stolen.
 
-**Untraceability:** By taking advantage of ring signatures, a special property of a certain type of cryptography, Haven is able to ensure that transactions are not only untraceable, but have an optional measure of ambiguity that ensures that transactions cannot easily be tied back to an individual user or computer.
+**Untraceability:** By taking advantage of ring signatures, a special property of a certain type of cryptography, FreeHaven is able to ensure that transactions are not only untraceable, but have an optional measure of ambiguity that ensures that transactions cannot easily be tied back to an individual user or computer.
 
 ## About this project
 
-This is the GUI for the [core Haven implementation](https://github.com/havenprotocol/haven). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of Haven that uses the protocol and network in a compatible manner.
+This is the GUI for the [core FreeHaven implementation](https://github.com/freehavenprotocol/freehaven). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of FreeHaven that uses the protocol and network in a compatible manner.
 
 As with many development projects, the repository on Github is considered to be the "staging" area for the latest changes. Before changes are merged into that branch on the main repository, they are tested by individual developers in their own branches, submitted as a pull request, and then subsequently tested by contributors who focus on testing and code reviews. That having been said, the repository should be carefully considered before using it in a production environment, unless there is a patch in the repository for a particular show-stopping issue you are experiencing. It is generally a better idea to use a tagged release for stability.
 
@@ -33,13 +36,13 @@ As with many development projects, the repository on Github is considered to be 
 See [LICENSE](LICENSE).
 
 
-## Compiling the Haven GUI from source
+## Compiling the FreeHaven GUI from source
 
 ### On Linux:
 
 (Tested on Ubuntu 16.04 x86, 16.10 x64, Gentoo x64 and Linux Mint 18 "Sarah" - Cinnamon x64)
 
-1. Install Haven dependencies
+1. Install FreeHaven dependencies
 
   - For Ubuntu and Mint
 
@@ -49,13 +52,13 @@ See [LICENSE](LICENSE).
 
 	`sudo emerge app-arch/xz-utils app-doc/doxygen dev-cpp/gtest dev-libs/boost dev-libs/expat dev-libs/openssl dev-util/cmake media-gfx/graphviz net-dns/unbound net-libs/ldns net-libs/miniupnpc net-libs/zeromq sys-libs/libunwind`
 
-2. Grab an up-to-date copy of the haven-gui repository
+2. Grab an up-to-date copy of the freehaven-gui repository
 
-	`git clone https://github.com/havenprotocol/haven-gui.git`
+	`git clone https://github.com/freehavenprotocol/freehaven-gui.git`
 
 3. Go into the repository
 
-	`cd haven-gui`
+	`cd freehaven-gui`
 
 4. Install the GUI dependencies
 
@@ -105,7 +108,7 @@ The executable can be found in the build/release/bin folder.
 
 2. Install [homebrew](http://brew.sh/)
 
-3. Install [haven](https://github.com/havenprotocol/haven) dependencies:
+3. Install [FreeHaven](https://github.com/freehavenprotocol/freehaven) dependencies:
 
   `brew install boost --c++11`
 
@@ -133,13 +136,13 @@ The executable can be found in the build/release/bin folder.
 
     This is the directory where Qt 5.x is installed on **your** system
 
-6. Grab an up-to-date copy of the haven-gui repository
+6. Grab an up-to-date copy of the freehaven-gui repository
 
-  `git clone https://github.com/havenprotocol/haven-gui.git`
+  `git clone https://github.com/freehavenprotocol/freehaven-gui.git`
 
 7. Go into the repository
 
-  `cd haven-gui`
+  `cd freehaven-gui`
 
 8. Start the build
 
@@ -164,7 +167,7 @@ More info: http://stackoverflow.com/a/35098040/1683164
 
 1. Install [msys2](http://msys2.github.io/), follow the instructions on that page on how to update packages to the latest versions
 
-2. Install Haven dependencies as described in [haven documentation](https://github.com/havenprotocol/haven) into msys2 environment
+2. Install FreeHaven dependencies as described in [FreeHaven documentation](https://github.com/freehavenprotocol/freehaven) into msys2 environment
    **As we only build application for x86, install only dependencies for x86 architecture (i686 in package name)**
    ```
    pacman -S mingw-w64-i686-toolchain make mingw-w64-i686-cmake mingw-w64-i686-boost mingw-w64-i686-openssl mingw-w64-i686-zeromq mingw-w64-i686-libsodium
@@ -203,12 +206,12 @@ More info: http://stackoverflow.com/a/35098040/1683164
 7. Clone repository
     ```
     cd
-    git clone https://github.com/havenprotocol/haven-gui.git
+    git clone https://github.com/freehavenprotocol/freehaven-gui.git
     ```
 
 8. Build the GUI
     ```
-    cd haven-gui
+    cd freehaven-gui
     export PATH=$(ls -rd /c/Qt/5.[6,7,8]/mingw53_32/bin | head -1):$PATH
     ./build.sh
     cd build

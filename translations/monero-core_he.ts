@@ -133,7 +133,7 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
-        <source>Starting Haven daemon in %1 seconds</source>
+        <source>Starting FreeHaven daemon in %1 seconds</source>
         <translation>מפעיל את מסנכרן הרשת עוד %1 שניות</translation>
     </message>
     <message>
@@ -470,7 +470,7 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Haven network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Haven. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <source>Mining with your computer helps strengthen the FreeHaven network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some FreeHaven. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation>כרייה מאבטחת את רשת מונרו. ככל שיותר אנשים יכרו, הקושי לתקוף את הרשת גדל.&lt;br&gt; &lt;br&gt;בנוסף, כרייה נותנת סיכוי קטן לזכות במונרו. המחשב שלך ינסה ליצור את הבלוק הבא בשרשרת, ואם תצליח תזכה. בהצלחה!</translation>
     </message>
     <message>
@@ -948,7 +948,7 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
-        <source>Embedded Haven version: </source>
+        <source>Embedded FreeHaven version: </source>
         <translation>גרסת מונרו: </translation>
     </message>
     <message>
@@ -1589,12 +1589,12 @@ Please upgrade or connect to another daemon</source>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Haven preferences</source>
+        <source>We’re almost there - let’s just configure some FreeHaven preferences</source>
         <translation>כמעט סיימנו - נותר להגדיר מספר דברים אחרונים</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Haven blockchain?</source>
+        <source>Kickstart the FreeHaven blockchain?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1609,7 +1609,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Haven instance. However, storing the full blockchain is beneficial to the security of the Haven network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular FreeHaven instance. However, storing the full blockchain is beneficial to the security of the FreeHaven network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
         <translation>מצב חסכון בשטח אחסון משתמש בפחות מקום בשטח דיסק אך באותו נפח של תעבורת רשת. אולם, שמירת עותק של כל בסיס הנתונים תורם לבטיחות של הרשת כולה. אם אתה משתמש במכשיר עם שטח אחסון קטן, אפשרות זו מתאימה עבורך.</translation>
     </message>
     <message>
@@ -1619,7 +1619,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Haven network, and also pays a small reward for the work done. This option will let Haven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the FreeHaven network, and also pays a small reward for the work done. This option will let FreeHaven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation>כרייה מאבטחת את רשת מונרו ובנוסף מתגמלת בפרס קטן על העבודה. אופציה זו מאפשרת למונרו לכרות כאשר המחשב מחובר לחשמל ואינו פעיל. הכרייה מפסיקה כאשר המחשב חוזר לפעולה.</translation>
     </message>
 </context>
@@ -1643,7 +1643,7 @@ Please upgrade or connect to another daemon</source>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Haven development is solely supported by donations</source>
+        <source>FreeHaven development is solely supported by donations</source>
         <translation>פיתוח מונרו מתאפשר רק בזכות תרומות</translation>
     </message>
     <message>
@@ -1658,8 +1658,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Haven development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Haven development.</source>
-        <translation>לכל העברה קיימת עמלה. אופציה זו מאפשרת לך להוסיף, בנוסף לעמלה, אחוז מסוים מעמלה זו כדי לתמוך בפיתוח של מונרו. למשל, תרומה אוטומטית של 50% עבור עמלה בסך 0.005 XMR תוסיף עוד 0.0025 XMR שיישלחו לצוות הפיתוח של מונרו</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support FreeHaven development. For instance, a 50% autodonation take a transaction fee of 0.005 XFH and add a 0.0025 XFH to support FreeHaven development.</source>
+        <translation>לכל העברה קיימת עמלה. אופציה זו מאפשרת לך להוסיף, בנוסף לעמלה, אחוז מסוים מעמלה זו כדי לתמוך בפיתוח של מונרו. למשל, תרומה אוטומטית של 50% עבור עמלה בסך 0.005 XFH תוסיף עוד 0.0025 XFH שיישלחו לצוות הפיתוח של מונרו</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1668,7 +1668,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Haven network, and also pays a small reward for the work done. This option will let Haven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the FreeHaven network, and also pays a small reward for the work done. This option will let FreeHaven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation>כרייה מאבטחת את רשת מונרו ובנוסף מתגמלת בפרס קטן על העבודה. אופציה זו מאפשרת למונרו לכרות כאשר המחשב מחובר לחשמל ואינו פעיל. הכרייה מפסיקה כאשר המחשב חוזר לפעולה.</translation>
     </message>
 </context>
@@ -1753,7 +1753,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE HAVEN</source>
+        <source>USE FreeHaven</source>
         <translation>התחל עם מונרו!</translation>
     </message>
     <message>
@@ -1849,7 +1849,7 @@ Please upgrade or connect to another daemon</source>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Haven!</source>
+        <source>Welcome to FreeHaven!</source>
         <translation>ברוכים הבאים למונרו!</translation>
     </message>
     <message>
@@ -1923,7 +1923,7 @@ Please upgrade or connect to another daemon</source>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Haven!</source>
+        <source>Welcome to FreeHaven!</source>
         <translation>ברוכים הבאים למונרו!</translation>
     </message>
     <message>
@@ -2058,7 +2058,7 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../main.qml" line="728"/>
-        <source>This address received %1 haven, with %2 confirmation(s).</source>
+        <source>This address received %1 FreeHaven, with %2 confirmation(s).</source>
         <translation>כתובת זו קיבלה %1 מונרו, עם %2 אישורים.</translation>
     </message>
     <message>
@@ -2078,7 +2078,7 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1355"/>
-        <source>New version of haven-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of FreeHaven-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation>גרסה חדשה של מונרו זמינה: %1&lt;br&gt;%2</translation>
     </message>
     <message>
@@ -2133,7 +2133,7 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="723"/>
-        <source>This address received %1 haven, but the transaction is not yet mined</source>
+        <source>This address received %1 FreeHaven, but the transaction is not yet mined</source>
         <translation>כתובת זו קיבלה %1 מונרו, אך ההעברה טרם אושרה ע"י הרשת</translation>
     </message>
     <message>
@@ -2163,7 +2163,7 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1017"/>
-        <source>Haven</source>
+        <source>FreeHaven</source>
         <translation>מונרו</translation>
     </message>
     <message>

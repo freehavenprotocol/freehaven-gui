@@ -117,7 +117,7 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
-        <source>Starting Haven daemon in %1 seconds</source>
+        <source>Starting FreeHaven daemon in %1 seconds</source>
         <translation>デーモンを開始するまであと%1秒</translation>
     </message>
     <message>
@@ -430,7 +430,7 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Haven network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Haven. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <source>Mining with your computer helps strengthen the FreeHaven network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some FreeHaven. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation>あなたのコンピュータでマイニングを行うことで、モネロのネットワークをより強固にすることができます。マイニングをする人が増えるほど、ネットワークへの攻撃が難しくなります。一人一人の協力が大切です。&lt;br&gt; &lt;br&gt;マイニングをすると、低確率ですがモネロを獲得できる可能性があります。あなたのコンピュータは、ある計算問題の解となるブロックとそのハッシュ値を計算します。正解のブロックが見つかると、あなたはそれに伴う報酬を得ます。グッドラック!</translation>
     </message>
     <message>
@@ -953,7 +953,7 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
-        <source>Embedded Haven version: </source>
+        <source>Embedded FreeHaven version: </source>
         <translation>埋め込まれたモネロのバージョン</translation>
     </message>
     <message>
@@ -1574,12 +1574,12 @@ Please upgrade or connect to another daemon</source>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Haven preferences</source>
+        <source>We’re almost there - let’s just configure some FreeHaven preferences</source>
         <translation>あと少しで完了です - いくつかの項目を設定してください</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Haven blockchain?</source>
+        <source>Kickstart the FreeHaven blockchain?</source>
         <translation>モネロのブロックチェーンを初期化しますか？</translation>
     </message>
     <message>
@@ -1594,7 +1594,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Haven instance. However, storing the full blockchain is beneficial to the security of the Haven network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular FreeHaven instance. However, storing the full blockchain is beneficial to the security of the FreeHaven network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
         <translation>ディスク容量節約モードを有効にすると、使用するディスク容量はずっと小さくなりますが、通信帯域の使用量は通常モードと変わりません。ただし、モネロのネットワークの安全性を高める意味で、完全なブロックチェーンの全体を保存することが推奨されています。もしあなたのコンピュータのディスク容量が小さい場合は、このオプションを使用してください。</translation>
     </message>
     <message>
@@ -1604,7 +1604,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Haven network, and also pays a small reward for the work done. This option will let Haven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the FreeHaven network, and also pays a small reward for the work done. This option will let FreeHaven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation>モネロの採掘をすることでネットワークの安全性が高まり、また提供した計算量の対価として低い確率ですが報酬が得られます。このオプションは、あなたのコンピュータが電源に接続されていてなおかつアイドル状態の場合に、自動的にモネロの採掘を行うことを許可します。あなたが作業を再開すると、採掘は停止されます。</translation>
     </message>
 </context>
@@ -1628,7 +1628,7 @@ Please upgrade or connect to another daemon</source>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Haven development is solely supported by donations</source>
+        <source>FreeHaven development is solely supported by donations</source>
         <translation>モネロの開発は寄付のみによって支えられています</translation>
     </message>
     <message>
@@ -1643,8 +1643,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Haven development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Haven development.</source>
-        <translation>取引には少額の手数料がかかります。このオプションはその手数料に加えて、手数料の何パーセントかをモネロの開発チームへの寄付として支払うことを許可します。例えば自動寄付の割合が50%で、取引の手数料が0.005 XMRであった場合、0.0025 XMRが開発チームへの寄付として取引に上乗せされます。</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support FreeHaven development. For instance, a 50% autodonation take a transaction fee of 0.005 XFH and add a 0.0025 XFH to support FreeHaven development.</source>
+        <translation>取引には少額の手数料がかかります。このオプションはその手数料に加えて、手数料の何パーセントかをモネロの開発チームへの寄付として支払うことを許可します。例えば自動寄付の割合が50%で、取引の手数料が0.005 XFHであった場合、0.0025 XFHが開発チームへの寄付として取引に上乗せされます。</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1653,7 +1653,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Haven network, and also pays a small reward for the work done. This option will let Haven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the FreeHaven network, and also pays a small reward for the work done. This option will let FreeHaven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation>モネロの採掘をすることでネットワークの安全性が高まり、また提供した計算量の対価として低い確率ですが報酬が得られます。このオプションは、あなたのコンピュータが電源に接続されていてなおかつアイドル状態の場合に、自動的にモネロの採掘を行うことを許可します。あなたが作業を再開すると、採掘は停止されます。</translation>
     </message>
 </context>
@@ -1738,7 +1738,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE HAVEN</source>
+        <source>USE FreeHaven</source>
         <translation>モネロを使う</translation>
     </message>
     <message>
@@ -1834,7 +1834,7 @@ Please upgrade or connect to another daemon</source>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Haven!</source>
+        <source>Welcome to FreeHaven!</source>
         <translation>モネロへようこそ!</translation>
     </message>
     <message>
@@ -1909,7 +1909,7 @@ Please upgrade or connect to another daemon</source>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Haven!</source>
+        <source>Welcome to FreeHaven!</source>
         <translation>モネロへようこそ!</translation>
     </message>
     <message>
@@ -2045,13 +2045,13 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../main.qml" line="723"/>
-        <source>This address received %1 haven, but the transaction is not yet mined</source>
-        <translation>このアドレスは%1XMRを受け取りましたが、取引はまだ採掘されていません。</translation>
+        <source>This address received %1 FreeHaven, but the transaction is not yet mined</source>
+        <translation>このアドレスは%1XFHを受け取りましたが、取引はまだ採掘されていません。</translation>
     </message>
     <message>
         <location filename="../main.qml" line="728"/>
-        <source>This address received %1 haven, with %2 confirmation(s).</source>
-        <translation>このアドレスは%1XMRを受け取り、その取引は%2回承認されました。</translation>
+        <source>This address received %1 FreeHaven, with %2 confirmation(s).</source>
+        <translation>このアドレスは%1XFHを受け取り、その取引は%2回承認されました。</translation>
     </message>
     <message>
         <location filename="../main.qml" line="732"/>
@@ -2085,8 +2085,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1355"/>
-        <source>New version of haven-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>新しいバージョンのhaven-wallet-guiを入手できます: %1&lt;br&gt;%2</translation>
+        <source>New version of FreeHaven-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>新しいバージョンのFreeHaven-wallet-guiを入手できます: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="518"/>
@@ -2148,7 +2148,7 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1017"/>
-        <source>Haven</source>
+        <source>FreeHaven</source>
         <translation>モネロ</translation>
     </message>
     <message>

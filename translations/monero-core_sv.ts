@@ -117,8 +117,8 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
-        <source>Starting Haven daemon in %1 seconds</source>
-        <translation>Haven-nod startar om %1 sekunder</translation>
+        <source>Starting FreeHaven daemon in %1 seconds</source>
+        <translation>FreeHaven-nod startar om %1 sekunder</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="115"/>
@@ -430,8 +430,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Haven network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Haven. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Utvinning med din dator hjälper till att stärka Haven-nätverket. Ju mer som folk utvinner, ju svårare blir det för nätverket att angripas, och varje litet bidrag hjälper till.&lt;br&gt; &lt;br&gt;Utvinning ger dig även en liten möjlighet att tjäna några Haven. Din dator kommer att leta efter lösningar för block genom att skapa hashar. Om du hittar ett block får du den tillhörande belöningen. Lycka till!</translation>
+        <source>Mining with your computer helps strengthen the FreeHaven network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some FreeHaven. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Utvinning med din dator hjälper till att stärka FreeHaven-nätverket. Ju mer som folk utvinner, ju svårare blir det för nätverket att angripas, och varje litet bidrag hjälper till.&lt;br&gt; &lt;br&gt;Utvinning ger dig även en liten möjlighet att tjäna några FreeHaven. Din dator kommer att leta efter lösningar för block genom att skapa hashar. Om du hittar ett block får du den tillhörande belöningen. Lycka till!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -857,8 +857,8 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
-        <source>Embedded Haven version: </source>
-        <translation>Inbäddad Haven-version:</translation>
+        <source>Embedded FreeHaven version: </source>
+        <translation>Inbäddad FreeHaven-version:</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="509"/>
@@ -1582,13 +1582,13 @@ Uppgradera eller anslut till en annan nod</translation>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Haven preferences</source>
-        <translation>Vi är nästan klara - låt oss bara göra några Haven-inställningar</translation>
+        <source>We’re almost there - let’s just configure some FreeHaven preferences</source>
+        <translation>Vi är nästan klara - låt oss bara göra några FreeHaven-inställningar</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Haven blockchain?</source>
-        <translation>Kickstarta Haven-blockkedjan?</translation>
+        <source>Kickstart the FreeHaven blockchain?</source>
+        <translation>Kickstarta FreeHaven-blockkedjan?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="115"/>
@@ -1602,8 +1602,8 @@ Uppgradera eller anslut till en annan nod</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Haven instance. However, storing the full blockchain is beneficial to the security of the Haven network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>Disksparläge använder markant mindre diskutrymme, men samma mängd bandbredd som en vanlig Haven-instans. Att spara hela blockkedjan är fördelaktigt för säkerheten för hela Haven-nätverket. Om du använder en enhet med begränsat diskutrymme så är denna inställning lämpad för dig.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular FreeHaven instance. However, storing the full blockchain is beneficial to the security of the FreeHaven network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>Disksparläge använder markant mindre diskutrymme, men samma mängd bandbredd som en vanlig FreeHaven-instans. Att spara hela blockkedjan är fördelaktigt för säkerheten för hela FreeHaven-nätverket. Om du använder en enhet med begränsat diskutrymme så är denna inställning lämpad för dig.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="157"/>
@@ -1612,8 +1612,8 @@ Uppgradera eller anslut till en annan nod</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Haven network, and also pays a small reward for the work done. This option will let Haven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Utvinning säkerställer Haven-nätverket, och betalar även en liten belöning för arbetet som utförs. Denna inställning låter Haven jobba när din dator körs på fast ström och inte används. Den kommer att sluta jobba när du använder datorn igen.</translation>
+        <source>Mining secures the FreeHaven network, and also pays a small reward for the work done. This option will let FreeHaven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Utvinning säkerställer FreeHaven-nätverket, och betalar även en liten belöning för arbetet som utförs. Denna inställning låter FreeHaven jobba när din dator körs på fast ström och inte används. Den kommer att sluta jobba när du använder datorn igen.</translation>
     </message>
 </context>
 <context>
@@ -1636,8 +1636,8 @@ Uppgradera eller anslut till en annan nod</translation>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Haven development is solely supported by donations</source>
-        <translation>Utvecklingen av Haven finansieras helt genom donationer</translation>
+        <source>FreeHaven development is solely supported by donations</source>
+        <translation>Utvecklingen av FreeHaven finansieras helt genom donationer</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -1651,8 +1651,8 @@ Uppgradera eller anslut till en annan nod</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Haven development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Haven development.</source>
-        <translation>En liten överföringsavgift tas ut för varje överföring. Denna inställning låter dig lägga till ett ytterligare belopp, som en procent av den avgiften, till din överföring för att stödja utveckligen av Haven. Till exempel, en 50 % automatisk donation tar en överföringsavgift på 0,005 XMR och lägger på 0,0025 XMR för att stödja utvecklingen av Haven.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support FreeHaven development. For instance, a 50% autodonation take a transaction fee of 0.005 XFH and add a 0.0025 XFH to support FreeHaven development.</source>
+        <translation>En liten överföringsavgift tas ut för varje överföring. Denna inställning låter dig lägga till ett ytterligare belopp, som en procent av den avgiften, till din överföring för att stödja utveckligen av FreeHaven. Till exempel, en 50 % automatisk donation tar en överföringsavgift på 0,005 XFH och lägger på 0,0025 XFH för att stödja utvecklingen av FreeHaven.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1661,8 +1661,8 @@ Uppgradera eller anslut till en annan nod</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Haven network, and also pays a small reward for the work done. This option will let Haven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Utvinning säkerställer Haven-nätverket, och betalar även en liten belöning för arbetet som utförs. Denna inställning låter Haven jobba när din dator körs på fast ström och inte används. Den kommer att sluta jobba när du använder datorn igen.</translation>
+        <source>Mining secures the FreeHaven network, and also pays a small reward for the work done. This option will let FreeHaven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Utvinning säkerställer FreeHaven-nätverket, och betalar även en liten belöning för arbetet som utförs. Denna inställning låter FreeHaven jobba när din dator körs på fast ström och inte används. Den kommer att sluta jobba när du använder datorn igen.</translation>
     </message>
 </context>
 <context>
@@ -1741,8 +1741,8 @@ Uppgradera eller anslut till en annan nod</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE HAVEN</source>
-        <translation>ANVÄND HAVEN</translation>
+        <source>USE FreeHaven</source>
+        <translation>ANVÄND FreeHaven</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="184"/>
@@ -1842,8 +1842,8 @@ Uppgradera eller anslut till en annan nod</translation>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Haven!</source>
-        <translation>Välkommen till Haven!</translation>
+        <source>Welcome to FreeHaven!</source>
+        <translation>Välkommen till FreeHaven!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="98"/>
@@ -1917,8 +1917,8 @@ Uppgradera eller anslut till en annan nod</translation>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Haven!</source>
-        <translation>Välkommen till Haven!</translation>
+        <source>Welcome to FreeHaven!</source>
+        <translation>Välkommen till FreeHaven!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="89"/>
@@ -2080,8 +2080,8 @@ Avgift: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1024"/>
-        <source>Haven</source>
-        <translation>Haven</translation>
+        <source>FreeHaven</source>
+        <translation>FreeHaven</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1072"/>
@@ -2099,8 +2099,8 @@ Ringstorlek:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="729"/>
-        <source>This address received %1 haven, but the transaction is not yet mined</source>
-        <translation>Denna adress tog emot %1 haven, men överföringen har ännu inte bekräftats</translation>
+        <source>This address received %1 FreeHaven, but the transaction is not yet mined</source>
+        <translation>Denna adress tog emot %1 FreeHaven, men överföringen har ännu inte bekräftats</translation>
     </message>
     <message>
         <location filename="../main.qml" line="738"/>
@@ -2137,8 +2137,8 @@ Ringstorlek:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="734"/>
-        <source>This address received %1 haven, with %2 confirmation(s).</source>
-        <translation>Denna adress tog emot %1 haven, med %2 bekräftelse(r).</translation>
+        <source>This address received %1 FreeHaven, with %2 confirmation(s).</source>
+        <translation>Denna adress tog emot %1 FreeHaven, med %2 bekräftelse(r).</translation>
     </message>
     <message>
         <location filename="../main.qml" line="750"/>
@@ -2167,8 +2167,8 @@ Ringstorlek:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1361"/>
-        <source>New version of haven-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Ny version av haven-wallet-gui finns tillgänglig: %1&lt;br&gt;%2</translation>
+        <source>New version of FreeHaven-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Ny version av FreeHaven-wallet-gui finns tillgänglig: %1&lt;br&gt;%2</translation>
     </message>
 </context>
 </TS>

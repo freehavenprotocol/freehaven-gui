@@ -117,8 +117,8 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
-        <source>Starting Haven daemon in %1 seconds</source>
-        <translation>Jurik Haven akan mulai dalam %1 detik</translation>
+        <source>Starting FreeHaven daemon in %1 seconds</source>
+        <translation>Jurik FreeHaven akan mulai dalam %1 detik</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="115"/>
@@ -430,8 +430,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Haven network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Haven. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Pertambangan dengan komputer Anda menolong mempertahankan jaringan Haven. Makin banyak orang-orang pertambangan, makin sulit menyerangkan jaringan, dan setiap komputer membantu, memang yang kecil.&lt;br&gt; &lt;br&gt;Pertambangan juga memberikan Anda sebuah kesempatan supaya memenangkan sedikit Haven. Komputer Anda akan menebak untuk kunci blok Haven. Jika Anda menemukan kunci yang pas, Anda akan menang sedikit Haven. Semoga sukses!</translation>
+        <source>Mining with your computer helps strengthen the FreeHaven network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some FreeHaven. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Pertambangan dengan komputer Anda menolong mempertahankan jaringan FreeHaven. Makin banyak orang-orang pertambangan, makin sulit menyerangkan jaringan, dan setiap komputer membantu, memang yang kecil.&lt;br&gt; &lt;br&gt;Pertambangan juga memberikan Anda sebuah kesempatan supaya memenangkan sedikit FreeHaven. Komputer Anda akan menebak untuk kunci blok FreeHaven. Jika Anda menemukan kunci yang pas, Anda akan menang sedikit FreeHaven. Semoga sukses!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -943,8 +943,8 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
-        <source>Embedded Haven version: </source>
-        <translation>Versi Haven termasuk: </translation>
+        <source>Embedded FreeHaven version: </source>
+        <translation>Versi FreeHaven termasuk: </translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="509"/>
@@ -1566,13 +1566,13 @@ Please upgrade or connect to another daemon</source>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Haven preferences</source>
-        <translation>Hampir selesai - marilah kita pilih preferensi dalam Haven</translation>
+        <source>We’re almost there - let’s just configure some FreeHaven preferences</source>
+        <translation>Hampir selesai - marilah kita pilih preferensi dalam FreeHaven</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Haven blockchain?</source>
-        <translation>Mulailah rantaiblok Haven?</translation>
+        <source>Kickstart the FreeHaven blockchain?</source>
+        <translation>Mulailah rantaiblok FreeHaven?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="115"/>
@@ -1586,8 +1586,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Haven instance. However, storing the full blockchain is beneficial to the security of the Haven network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>Cara penghematan bisa mengurangi ruang hard disk untuk Haven, tetapi tidak mengurangi jumlah data. Menyimpan rantaiblok lengkap bermanfaat untuk jaringan. Kalau Anda punya hard disk yang kecil, pilihan ini sesuai untuk Anda.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular FreeHaven instance. However, storing the full blockchain is beneficial to the security of the FreeHaven network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>Cara penghematan bisa mengurangi ruang hard disk untuk FreeHaven, tetapi tidak mengurangi jumlah data. Menyimpan rantaiblok lengkap bermanfaat untuk jaringan. Kalau Anda punya hard disk yang kecil, pilihan ini sesuai untuk Anda.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="157"/>
@@ -1596,8 +1596,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Haven network, and also pays a small reward for the work done. This option will let Haven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Pertambangan menjaminkan sekuritas jaringan Haven, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan Haven untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
+        <source>Mining secures the FreeHaven network, and also pays a small reward for the work done. This option will let FreeHaven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Pertambangan menjaminkan sekuritas jaringan FreeHaven, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan FreeHaven untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
     </message>
 </context>
 <context>
@@ -1620,8 +1620,8 @@ Please upgrade or connect to another daemon</source>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Haven development is solely supported by donations</source>
-        <translation>Pembangunan Haven cuma didukung oleh sumbangan</translation>
+        <source>FreeHaven development is solely supported by donations</source>
+        <translation>Pembangunan FreeHaven cuma didukung oleh sumbangan</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -1635,8 +1635,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Haven development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Haven development.</source>
-        <translation>Dengan setiap transaksi, biaya kecil dibebankan. Pilihan ini membolehkan Anda menaiki persen biaya itu kepada yang membangunkan Haven. Contoh, pilihan 50% dengan biaya 0.005XMR akan tambah lagi 0.0025XMR kepada yang membangunkan Haven.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support FreeHaven development. For instance, a 50% autodonation take a transaction fee of 0.005 XFH and add a 0.0025 XFH to support FreeHaven development.</source>
+        <translation>Dengan setiap transaksi, biaya kecil dibebankan. Pilihan ini membolehkan Anda menaiki persen biaya itu kepada yang membangunkan FreeHaven. Contoh, pilihan 50% dengan biaya 0.005XFH akan tambah lagi 0.0025XFH kepada yang membangunkan FreeHaven.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1645,8 +1645,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Haven network, and also pays a small reward for the work done. This option will let Haven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Pertambangan menjaminkan sekuritas jaringan Haven, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan Haven untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
+        <source>Mining secures the FreeHaven network, and also pays a small reward for the work done. This option will let FreeHaven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Pertambangan menjaminkan sekuritas jaringan FreeHaven, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan FreeHaven untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
     </message>
 </context>
 <context>
@@ -1730,8 +1730,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE HAVEN</source>
-        <translation>MENGGUNAKAN HAVEN</translation>
+        <source>USE FreeHaven</source>
+        <translation>MENGGUNAKAN FreeHaven</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="383"/>
@@ -1825,8 +1825,8 @@ Please upgrade or connect to another daemon</source>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Haven!</source>
-        <translation>Selamat datang di dunia Haven!</translation>
+        <source>Welcome to FreeHaven!</source>
+        <translation>Selamat datang di dunia FreeHaven!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="98"/>
@@ -1900,8 +1900,8 @@ Please upgrade or connect to another daemon</source>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Haven!</source>
-        <translation>Selamat datang di dunia Haven!</translation>
+        <source>Welcome to FreeHaven!</source>
+        <translation>Selamat datang di dunia FreeHaven!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="89"/>
@@ -2055,7 +2055,7 @@ Description: </source>
     <message>
         <location filename="../main.qml" line="669"/>
         <source>Couldn&apos;t send the money: </source>
-        <translation>Tidak bisa mengirim uang haven: </translation>
+        <translation>Tidak bisa mengirim uang FreeHaven: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="672"/>
@@ -2065,7 +2065,7 @@ Description: </source>
     <message>
         <location filename="../main.qml" line="678"/>
         <source>Money sent successfully: %1 transaction(s) </source>
-        <translation>Uang haven dikirim dengan sukses: %1 transaksi </translation>
+        <translation>Uang FreeHaven dikirim dengan sukses: %1 transaksi </translation>
     </message>
     <message>
         <location filename="../main.qml" line="678"/>
@@ -2079,13 +2079,13 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="723"/>
-        <source>This address received %1 haven, but the transaction is not yet mined</source>
-        <translation>Alamat ini menerima %1 haven, tetapi transaksinya belum termasuk dalam blok</translation>
+        <source>This address received %1 FreeHaven, but the transaction is not yet mined</source>
+        <translation>Alamat ini menerima %1 FreeHaven, tetapi transaksinya belum termasuk dalam blok</translation>
     </message>
     <message>
         <location filename="../main.qml" line="728"/>
-        <source>This address received %1 haven, with %2 confirmation(s).</source>
-        <translation>Alamat ini menerima %1 haven, dengan %2 konfirmasi.</translation>
+        <source>This address received %1 FreeHaven, with %2 confirmation(s).</source>
+        <translation>Alamat ini menerima %1 FreeHaven, dengan %2 konfirmasi.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1317"/>
@@ -2104,8 +2104,8 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1355"/>
-        <source>New version of haven-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Versi baru untuk haven-wallet-gui tersedia: %1&lt;br&gt;%2</translation>
+        <source>New version of FreeHaven-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Versi baru untuk FreeHaven-wallet-gui tersedia: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="732"/>
@@ -2134,8 +2134,8 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1017"/>
-        <source>Haven</source>
-        <translation>Haven</translation>
+        <source>FreeHaven</source>
+        <translation>FreeHaven</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1065"/>
