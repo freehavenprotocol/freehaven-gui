@@ -117,8 +117,8 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
-        <source>Starting Haven daemon in %1 seconds</source>
-        <translation>在 %1 秒后启动Haven区块同步程序</translation>
+        <source>Starting FreeHaven daemon in %1 seconds</source>
+        <translation>在 %1 秒后启动FreeHaven区块同步程序</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="115"/>
@@ -430,8 +430,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Haven network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Haven. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>挖矿可增进 Haven 网络的安全性，只要越多使用者在挖矿，Haven 网络就会越难以被攻击。&lt;br&gt; &lt;br&gt;挖矿同时能让您有机会赚取额外的 XHV 币，因为在挖矿时，您的计算机将被用来寻找 Haven 区块的解答，每当您找到一个区块的解答，您即可以获得其附带的 XHV 币奖励，祝您好运！</translation>
+        <source>Mining with your computer helps strengthen the FreeHaven network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some FreeHaven. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>挖矿可增进 FreeHaven 网络的安全性，只要越多使用者在挖矿，FreeHaven 网络就会越难以被攻击。&lt;br&gt; &lt;br&gt;挖矿同时能让您有机会赚取额外的 XHV 币，因为在挖矿时，您的计算机将被用来寻找 FreeHaven 区块的解答，每当您找到一个区块的解答，您即可以获得其附带的 XHV 币奖励，祝您好运！</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -908,8 +908,8 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
-        <source>Embedded Haven version: </source>
-        <translation>内嵌Haven版本: </translation>
+        <source>Embedded FreeHaven version: </source>
+        <translation>内嵌FreeHaven版本: </translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="509"/>
@@ -1574,13 +1574,13 @@ Please upgrade or connect to another daemon</source>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Haven preferences</source>
-        <translation>就快完成了 - Haven 还需要一点设置</translation>
+        <source>We’re almost there - let’s just configure some FreeHaven preferences</source>
+        <translation>就快完成了 - FreeHaven 还需要一点设置</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Haven blockchain?</source>
-        <translation>开始同步 Haven 区块链?</translation>
+        <source>Kickstart the FreeHaven blockchain?</source>
+        <translation>开始同步 FreeHaven 区块链?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="115"/>
@@ -1594,8 +1594,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Haven instance. However, storing the full blockchain is beneficial to the security of the Haven network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>硬盘节约模式能精简区块链的数据而减少硬盘空间的使用量，但保存完整的区块链能加强 Haven 网络的安全性，当您需要在容量较小的硬盘上执行，那么这个功能就很适合您，此功能对于网络带宽的用量没有影响。</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular FreeHaven instance. However, storing the full blockchain is beneficial to the security of the FreeHaven network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>硬盘节约模式能精简区块链的数据而减少硬盘空间的使用量，但保存完整的区块链能加强 FreeHaven 网络的安全性，当您需要在容量较小的硬盘上执行，那么这个功能就很适合您，此功能对于网络带宽的用量没有影响。</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="157"/>
@@ -1604,8 +1604,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Haven network, and also pays a small reward for the work done. This option will let Haven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>启动挖矿功能可让 Haven 的系统网络更加安全，且在工作完成时获得小额的奖励金。这个功能只会在计算机插着电源并且闲置时才会自动启动，当您继续使用计算机后即会停止挖矿。</translation>
+        <source>Mining secures the FreeHaven network, and also pays a small reward for the work done. This option will let FreeHaven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>启动挖矿功能可让 FreeHaven 的系统网络更加安全，且在工作完成时获得小额的奖励金。这个功能只会在计算机插着电源并且闲置时才会自动启动，当您继续使用计算机后即会停止挖矿。</translation>
     </message>
 </context>
 <context>
@@ -1628,13 +1628,13 @@ Please upgrade or connect to another daemon</source>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Haven development is solely supported by donations</source>
-        <translation>Haven的开发完全由赞助所支持</translation>
+        <source>FreeHaven development is solely supported by donations</source>
+        <translation>FreeHaven的开发完全由赞助所支持</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
         <source>Enable auto-donations of?</source>
-        <translation>激活自动赞助给Haven的开发团队?</translation>
+        <translation>激活自动赞助给FreeHaven的开发团队?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="153"/>
@@ -1643,8 +1643,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Haven development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Haven development.</source>
-        <translation>在每一笔交易中 Haven 系统都会收取小额的手续费，而这个选项则是让你可以增加额外的金额赞助 Haven 的开发，比例以当次交易的手续费计算，譬如 50% 的自动赞助将会从0.005 XMR的手续费算出 0.0025 XMR 的金额赞助给 Haven 开发团队。</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support FreeHaven development. For instance, a 50% autodonation take a transaction fee of 0.005 XFH and add a 0.0025 XFH to support FreeHaven development.</source>
+        <translation>在每一笔交易中 FreeHaven 系统都会收取小额的手续费，而这个选项则是让你可以增加额外的金额赞助 FreeHaven 的开发，比例以当次交易的手续费计算，譬如 50% 的自动赞助将会从0.005 XFH的手续费算出 0.0025 XFH 的金额赞助给 FreeHaven 开发团队。</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1653,8 +1653,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Haven network, and also pays a small reward for the work done. This option will let Haven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>启动挖矿功能可让 Haven 的网络更加安全，且在工作完成时获得小额的奖励金。这个功能只会在计算机插着电源并且闲置时才会自动启动，当您继续使用计算机后即会停止挖矿。</translation>
+        <source>Mining secures the FreeHaven network, and also pays a small reward for the work done. This option will let FreeHaven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>启动挖矿功能可让 FreeHaven 的网络更加安全，且在工作完成时获得小额的奖励金。这个功能只会在计算机插着电源并且闲置时才会自动启动，当您继续使用计算机后即会停止挖矿。</translation>
     </message>
 </context>
 <context>
@@ -1738,8 +1738,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE HAVEN</source>
-        <translation>使用 HAVEN</translation>
+        <source>USE FreeHaven</source>
+        <translation>使用 FreeHaven</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="383"/>
@@ -1834,8 +1834,8 @@ Please upgrade or connect to another daemon</source>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Haven!</source>
-        <translation>欢迎使用 Haven！</translation>
+        <source>Welcome to FreeHaven!</source>
+        <translation>欢迎使用 FreeHaven！</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="98"/>
@@ -1909,8 +1909,8 @@ Please upgrade or connect to another daemon</source>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Haven!</source>
-        <translation>欢迎使用 Haven！</translation>
+        <source>Welcome to FreeHaven!</source>
+        <translation>欢迎使用 FreeHaven！</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="89"/>
@@ -2047,8 +2047,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../main.qml" line="728"/>
-        <source>This address received %1 haven, with %2 confirmation(s).</source>
-        <translation>这个地址接收了 %1 haven，并通过 %2 次的确认。</translation>
+        <source>This address received %1 FreeHaven, with %2 confirmation(s).</source>
+        <translation>这个地址接收了 %1 FreeHaven，并通过 %2 次的确认。</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1317"/>
@@ -2067,8 +2067,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1355"/>
-        <source>New version of haven-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>有可用的新版本 Haven 钱包:  %1&lt;br&gt;%2</translation>
+        <source>New version of FreeHaven-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>有可用的新版本 FreeHaven 钱包:  %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="523"/>
@@ -2123,8 +2123,8 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="723"/>
-        <source>This address received %1 haven, but the transaction is not yet mined</source>
-        <translation>这个地址已收到 %1 haven币，但这笔交易尚未被矿工确认</translation>
+        <source>This address received %1 FreeHaven, but the transaction is not yet mined</source>
+        <translation>这个地址已收到 %1 FreeHaven币，但这笔交易尚未被矿工确认</translation>
     </message>
     <message>
         <location filename="../main.qml" line="732"/>
@@ -2153,8 +2153,8 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1017"/>
-        <source>Haven</source>
-        <translation>Haven</translation>
+        <source>FreeHaven</source>
+        <translation>FreeHaven</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1065"/>

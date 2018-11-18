@@ -372,7 +372,7 @@ ColumnLayout {
         anchors.right: parent.right
         anchors.bottom: parent.bottom
         anchors.margins:  (isMobile) ? 20 * scaleRatio : 50 * scaleRatio
-        text: qsTr("USE HAVEN") + translationManager.emptyString
+        text: qsTr("USE FREEHAVEN") + translationManager.emptyString
         shadowReleasedColor: "#0c091d"
         shadowPressedColor: "#B32D00"
         releasedColor: "#142f38"

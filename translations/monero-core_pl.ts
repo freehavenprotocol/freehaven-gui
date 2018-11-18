@@ -117,8 +117,8 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
-        <source>Starting Haven daemon in %1 seconds</source>
-        <translation type="unfinished">Uruchomienie procesu Haven za %1 sekund</translation>
+        <source>Starting FreeHaven daemon in %1 seconds</source>
+        <translation type="unfinished">Uruchomienie procesu FreeHaven za %1 sekund</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="115"/>
@@ -430,8 +430,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Haven network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Haven. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="unfinished">Kopanie z udziałem twojego komputera wzmacnia sieć Haven. Im więcej osób kopie tym trudniej zaatakować sieć, a każdy najmniejszy wkład jest pomocny. Dodatkowo kopanie daje ci małą szansę na zarobienie Haven. Twój komputer utworzy hashe/sumy kontrolne aby znaleźć rozwiązanie dla bloku. Jeżeli znajdziesz rozwiązanie wtedy otrzymasz swój udział w postaci zapłaty w Haven. Powodzenia!</translation>
+        <source>Mining with your computer helps strengthen the FreeHaven network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some FreeHaven. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation type="unfinished">Kopanie z udziałem twojego komputera wzmacnia sieć FreeHaven. Im więcej osób kopie tym trudniej zaatakować sieć, a każdy najmniejszy wkład jest pomocny. Dodatkowo kopanie daje ci małą szansę na zarobienie FreeHaven. Twój komputer utworzy hashe/sumy kontrolne aby znaleźć rozwiązanie dla bloku. Jeżeli znajdziesz rozwiązanie wtedy otrzymasz swój udział w postaci zapłaty w FreeHaven. Powodzenia!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -939,7 +939,7 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
-        <source>Embedded Haven version: </source>
+        <source>Embedded FreeHaven version: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1568,13 +1568,13 @@ Ringsize: </source>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Haven preferences</source>
-        <translation>Prawie skończone - właśnie konfigurujemy ustawienia Haven</translation>
+        <source>We’re almost there - let’s just configure some FreeHaven preferences</source>
+        <translation>Prawie skończone - właśnie konfigurujemy ustawienia FreeHaven</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Haven blockchain?</source>
-        <translation>Uruchomić łańcuch bloków (blockchain) Haven?</translation>
+        <source>Kickstart the FreeHaven blockchain?</source>
+        <translation>Uruchomić łańcuch bloków (blockchain) FreeHaven?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="115"/>
@@ -1588,8 +1588,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Haven instance. However, storing the full blockchain is beneficial to the security of the Haven network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>Tryb oszczędzania dysku używa znacząco mniej przestrzeni, ale tyle samo łącza co normalna instancja Haven. Przechowywanie całego łańcucha bloków jest jednak korzystne dla bezpieczeństwa sieci Haven. Jeśli używasz urządzenia z ograniczonym wolnym miejscem na dysku, ta opcja jest odpowiednia dla Ciebie.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular FreeHaven instance. However, storing the full blockchain is beneficial to the security of the FreeHaven network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>Tryb oszczędzania dysku używa znacząco mniej przestrzeni, ale tyle samo łącza co normalna instancja FreeHaven. Przechowywanie całego łańcucha bloków jest jednak korzystne dla bezpieczeństwa sieci FreeHaven. Jeśli używasz urządzenia z ograniczonym wolnym miejscem na dysku, ta opcja jest odpowiednia dla Ciebie.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="157"/>
@@ -1598,8 +1598,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Haven network, and also pays a small reward for the work done. This option will let Haven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Kopanie umacnia sieć Haven oraz pozwala na wykopanie niewielkiej nagrody za wykonaną pracę. Ta opcja pozwala Haven na kopanie, kiedy twój komputer jest podłączony do zasilania i bezczynny. Przestanie kopać, kiedy zaczniesz aktywnie używać komputera.</translation>
+        <source>Mining secures the FreeHaven network, and also pays a small reward for the work done. This option will let FreeHaven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Kopanie umacnia sieć FreeHaven oraz pozwala na wykopanie niewielkiej nagrody za wykonaną pracę. Ta opcja pozwala FreeHaven na kopanie, kiedy twój komputer jest podłączony do zasilania i bezczynny. Przestanie kopać, kiedy zaczniesz aktywnie używać komputera.</translation>
     </message>
 </context>
 <context>
@@ -1622,8 +1622,8 @@ Ringsize: </source>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Haven development is solely supported by donations</source>
-        <translation>Rozwój Haven zależy wyłącznie od dotacji</translation>
+        <source>FreeHaven development is solely supported by donations</source>
+        <translation>Rozwój FreeHaven zależy wyłącznie od dotacji</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -1637,8 +1637,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Haven development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Haven development.</source>
-        <translation>Od każdej transakcji, pobierana jest niewielka opłata. Ta opcja pozwala ją powiększyć o pewien procent, aby wspierać rozwój Haven. Dla przykładu, 50% dotacja automatyczna pobiera opłatę 0,005 XMR oraz 0,0025 XMR na wsparcie rozwoju Haven.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support FreeHaven development. For instance, a 50% autodonation take a transaction fee of 0.005 XFH and add a 0.0025 XFH to support FreeHaven development.</source>
+        <translation>Od każdej transakcji, pobierana jest niewielka opłata. Ta opcja pozwala ją powiększyć o pewien procent, aby wspierać rozwój FreeHaven. Dla przykładu, 50% dotacja automatyczna pobiera opłatę 0,005 XFH oraz 0,0025 XFH na wsparcie rozwoju FreeHaven.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1647,8 +1647,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Haven network, and also pays a small reward for the work done. This option will let Haven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Kopanie umacnia sieć Haven oraz pozwala na wykopanie niewielkiej nagrody za wykonaną pracę. Ta opcja pozwala Haven na kopanie, kiedy twój komputer jest podłączony do zasilania i bezczynny. Przestanie kopać, kiedy zaczniesz aktywnie używać komputera.</translation>
+        <source>Mining secures the FreeHaven network, and also pays a small reward for the work done. This option will let FreeHaven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Kopanie umacnia sieć FreeHaven oraz pozwala na wykopanie niewielkiej nagrody za wykonaną pracę. Ta opcja pozwala FreeHaven na kopanie, kiedy twój komputer jest podłączony do zasilania i bezczynny. Przestanie kopać, kiedy zaczniesz aktywnie używać komputera.</translation>
     </message>
 </context>
 <context>
@@ -1732,8 +1732,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE HAVEN</source>
-        <translation>UŻYJ HAVEN</translation>
+        <source>USE FreeHaven</source>
+        <translation>UŻYJ FreeHaven</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="383"/>
@@ -1827,8 +1827,8 @@ Ringsize: </source>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Haven!</source>
-        <translation>Witaj w świecie Haven!</translation>
+        <source>Welcome to FreeHaven!</source>
+        <translation>Witaj w świecie FreeHaven!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="98"/>
@@ -1901,8 +1901,8 @@ Ringsize: </source>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Haven!</source>
-        <translation type="unfinished">Witaj w świecie Haven!</translation>
+        <source>Welcome to FreeHaven!</source>
+        <translation type="unfinished">Witaj w świecie FreeHaven!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="89"/>
@@ -2066,7 +2066,7 @@ Opłata: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1355"/>
-        <source>New version of haven-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of FreeHaven-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2091,7 +2091,7 @@ Opłata: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="728"/>
-        <source>This address received %1 haven, with %2 confirmation(s).</source>
+        <source>This address received %1 FreeHaven, with %2 confirmation(s).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2128,8 +2128,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../main.qml" line="723"/>
-        <source>This address received %1 haven, but the transaction is not yet mined</source>
-        <translation>Ten adres otrzymał %1 haven, ale transakcja nie została jeszcze wykopana</translation>
+        <source>This address received %1 FreeHaven, but the transaction is not yet mined</source>
+        <translation>Ten adres otrzymał %1 FreeHaven, ale transakcja nie została jeszcze wykopana</translation>
     </message>
     <message>
         <location filename="../main.qml" line="732"/>
@@ -2143,7 +2143,7 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1017"/>
-        <source>Haven</source>
+        <source>FreeHaven</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

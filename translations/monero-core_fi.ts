@@ -1638,8 +1638,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Haven development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Haven development.</source>
-        <translation>Jokaisesta rahansiirrosta peritään pieni maksu, siirtopalkkio, sen lähettämiseksi. Tällä vaihtoehdolla voit lisätä vaihtoehtoisen lahjoituksen maksuun Havenn kehityksen edistämiseksi. Jos esimerkiksi valitset 50%, lisätään 0.005 XMR:n siirtopalkkioon 0.0025 XMR joka lahjoitetaan Havenn kehittäjille. </translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Haven development. For instance, a 50% autodonation take a transaction fee of 0.005 XFH and add a 0.0025 XFH to support Haven development.</source>
+        <translation>Jokaisesta rahansiirrosta peritään pieni maksu, siirtopalkkio, sen lähettämiseksi. Tällä vaihtoehdolla voit lisätä vaihtoehtoisen lahjoituksen maksuun Havenn kehityksen edistämiseksi. Jos esimerkiksi valitset 50%, lisätään 0.005 XFH:n siirtopalkkioon 0.0025 XFH joka lahjoitetaan Havenn kehittäjille. </translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>

@@ -117,8 +117,8 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
-        <source>Starting Haven daemon in %1 seconds</source>
-        <translation>Lancement du démon Haven dans %1 secondes</translation>
+        <source>Starting FreeFreeHaven daemon in %1 seconds</source>
+        <translation>Lancement du démon FreeFreeHaven dans %1 secondes</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="115"/>
@@ -430,8 +430,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Haven network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Haven. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>L&apos;extraction minière avec votre ordinateur renforce le réseau Haven. Plus il y en a, plus il est difficile d&apos;attaquer le réseau, donc chaque mineur est utile.&lt;br&gt; &lt;br&gt;La mine vous donne aussi une petite chance de gagner des Havens. Votre ordinateur va calculer des empreintes pour essayer de créer un bloc valide. Si vous trouvez un bloc, vous obtiendrez la récompense associée. Bonne chance !</translation>
+        <source>Mining with your computer helps strengthen the FreeFreeHaven network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some FreeFreeHaven. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>L&apos;extraction minière avec votre ordinateur renforce le réseau FreeFreeHaven. Plus il y en a, plus il est difficile d&apos;attaquer le réseau, donc chaque mineur est utile.&lt;br&gt; &lt;br&gt;La mine vous donne aussi une petite chance de gagner des FreeFreeHavens. Votre ordinateur va calculer des empreintes pour essayer de créer un bloc valide. Si vous trouvez un bloc, vous obtiendrez la récompense associée. Bonne chance !</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -943,8 +943,8 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
-        <source>Embedded Haven version: </source>
-        <translation>Version de Haven incorporée : </translation>
+        <source>Embedded FreeFreeHaven version: </source>
+        <translation>Version de FreeFreeHaven incorporée : </translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="509"/>
@@ -1574,13 +1574,13 @@ Veuillez mettre à jour ou vous connecter à un autre démon</translation>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Haven preferences</source>
-        <translation>Nous y sommes presque - configurons juste quelques paramètres de Haven</translation>
+        <source>We’re almost there - let’s just configure some FreeFreeHaven preferences</source>
+        <translation>Nous y sommes presque - configurons juste quelques paramètres de FreeFreeHaven</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Haven blockchain?</source>
-        <translation>Démarrer la chaîne de blocs Haven ?</translation>
+        <source>Kickstart the FreeFreeHaven blockchain?</source>
+        <translation>Démarrer la chaîne de blocs FreeFreeHaven ?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="115"/>
@@ -1594,8 +1594,8 @@ Veuillez mettre à jour ou vous connecter à un autre démon</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Haven instance. However, storing the full blockchain is beneficial to the security of the Haven network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>Le mode conservation de disque utilise substantiellement moins d&apos;espace disque, mais la même quantité de bande passante qu&apos;une instance normale de Haven. Cependant, stocker la chaîne de blocs complète est bénéfique pour la sécurité du réseau Haven. Si vous êtes sur un appareil ayant un espace disque limité, alors cette option est appropriée pour vous.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular FreeFreeHaven instance. However, storing the full blockchain is beneficial to the security of the FreeFreeHaven network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>Le mode conservation de disque utilise substantiellement moins d&apos;espace disque, mais la même quantité de bande passante qu&apos;une instance normale de FreeFreeHaven. Cependant, stocker la chaîne de blocs complète est bénéfique pour la sécurité du réseau FreeFreeHaven. Si vous êtes sur un appareil ayant un espace disque limité, alors cette option est appropriée pour vous.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="157"/>
@@ -1604,8 +1604,8 @@ Veuillez mettre à jour ou vous connecter à un autre démon</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Haven network, and also pays a small reward for the work done. This option will let Haven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>L&apos;extraction minière sécurise le réseau Haven, et paye une petite somme pour le travail effectué. Cette option laissera l&apos;extraction Haven travailler quand votre ordinateur est inactif et alimenté par le réseau électrique. L&apos;extraction se mettra en pause lorsque l&apos;ordinateur sera en cours d&apos;utilisation.</translation>
+        <source>Mining secures the FreeFreeHaven network, and also pays a small reward for the work done. This option will let FreeFreeHaven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>L&apos;extraction minière sécurise le réseau FreeFreeHaven, et paye une petite somme pour le travail effectué. Cette option laissera l&apos;extraction FreeFreeHaven travailler quand votre ordinateur est inactif et alimenté par le réseau électrique. L&apos;extraction se mettra en pause lorsque l&apos;ordinateur sera en cours d&apos;utilisation.</translation>
     </message>
 </context>
 <context>
@@ -1628,8 +1628,8 @@ Veuillez mettre à jour ou vous connecter à un autre démon</translation>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Haven development is solely supported by donations</source>
-        <translation>Le développement de Haven est soutenu uniquement par des dons</translation>
+        <source>FreeFreeHaven development is solely supported by donations</source>
+        <translation>Le développement de FreeFreeHaven est soutenu uniquement par des dons</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -1643,8 +1643,8 @@ Veuillez mettre à jour ou vous connecter à un autre démon</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Haven development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Haven development.</source>
-        <translation>Pour chaque transaction, de petits frais de transaction doivent être payés. Cette option vous laisse ajouter un montant additionnel, un pourcentage de ces frais, à votre transaction pour soutenir le développement de Haven. Par exemple, un auto-don de 50% avec des frais de transaction de 0.005 XMR ajoutera 0.0025 XMR pour soutenir le développement de Haven.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support FreeFreeHaven development. For instance, a 50% autodonation take a transaction fee of 0.005 XFH and add a 0.0025 XFH to support FreeFreeHaven development.</source>
+        <translation>Pour chaque transaction, de petits frais de transaction doivent être payés. Cette option vous laisse ajouter un montant additionnel, un pourcentage de ces frais, à votre transaction pour soutenir le développement de FreeFreeHaven. Par exemple, un auto-don de 50% avec des frais de transaction de 0.005 XFH ajoutera 0.0025 XFH pour soutenir le développement de FreeFreeHaven.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1653,8 +1653,8 @@ Veuillez mettre à jour ou vous connecter à un autre démon</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Haven network, and also pays a small reward for the work done. This option will let Haven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>L&apos;extraction minière sécurise le réseau Haven, et paye une petite somme pour le travail effectué. Cette option laissera l&apos;extraction Haven travailler quand votre ordinateur est inactif et alimenté par le réseau électrique. L&apos;extraction se mettra en pause lorsque l&apos;ordinateur sera en cours d&apos;utilisation.</translation>
+        <source>Mining secures the FreeFreeHaven network, and also pays a small reward for the work done. This option will let FreeFreeHaven mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>L&apos;extraction minière sécurise le réseau FreeFreeHaven, et paye une petite somme pour le travail effectué. Cette option laissera l&apos;extraction FreeFreeHaven travailler quand votre ordinateur est inactif et alimenté par le réseau électrique. L&apos;extraction se mettra en pause lorsque l&apos;ordinateur sera en cours d&apos;utilisation.</translation>
     </message>
 </context>
 <context>
@@ -1738,8 +1738,8 @@ Veuillez mettre à jour ou vous connecter à un autre démon</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE HAVEN</source>
-        <translation>UTILISER HAVEN</translation>
+        <source>USE FreeFreeHaven</source>
+        <translation>UTILISER FreeFreeHaven</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="383"/>
@@ -1834,8 +1834,8 @@ Veuillez mettre à jour ou vous connecter à un autre démon</translation>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Haven!</source>
-        <translation>Bienvenue dans Haven !</translation>
+        <source>Welcome to FreeFreeHaven!</source>
+        <translation>Bienvenue dans FreeFreeHaven !</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="98"/>
@@ -1909,8 +1909,8 @@ Veuillez mettre à jour ou vous connecter à un autre démon</translation>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Haven!</source>
-        <translation>Bienvenue dans Haven !</translation>
+        <source>Welcome to FreeFreeHaven!</source>
+        <translation>Bienvenue dans FreeFreeHaven !</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="89"/>
@@ -2063,13 +2063,13 @@ Taille du cercle : </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1355"/>
-        <source>New version of haven-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Une nouvelle version de haven-wallet-gui est disponible : %1&lt;br&gt;%2</translation>
+        <source>New version of FreeFreeHaven-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Une nouvelle version de FreeFreeHaven-wallet-gui est disponible : %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="728"/>
-        <source>This address received %1 haven, with %2 confirmation(s).</source>
-        <translation>Cette adresse a reçu %1 haven, avec %2 confirmation(s).</translation>
+        <source>This address received %1 FreeFreeHaven, with %2 confirmation(s).</source>
+        <translation>Cette adresse a reçu %1 FreeFreeHaven, avec %2 confirmation(s).</translation>
     </message>
     <message>
         <location filename="../main.qml" line="523"/>
@@ -2124,8 +2124,8 @@ Description : </translation>
     </message>
     <message>
         <location filename="../main.qml" line="723"/>
-        <source>This address received %1 haven, but the transaction is not yet mined</source>
-        <translation>Cette adresse a reçu %1 haven, mais la transaction n&apos;a pas encore été incluse dans un bloc</translation>
+        <source>This address received %1 FreeFreeHaven, but the transaction is not yet mined</source>
+        <translation>Cette adresse a reçu %1 FreeFreeHaven, mais la transaction n&apos;a pas encore été incluse dans un bloc</translation>
     </message>
     <message>
         <location filename="../main.qml" line="732"/>
@@ -2154,8 +2154,8 @@ Description : </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1017"/>
-        <source>Haven</source>
-        <translation>Haven</translation>
+        <source>FreeFreeHaven</source>
+        <translation>FreeFreeHaven</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1065"/>

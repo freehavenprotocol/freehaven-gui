@@ -699,12 +699,12 @@ void Wallet::setWalletCreationHeight(quint64 height)
 
 QString Wallet::getDaemonLogPath() const
 {
-    return QString::fromStdString(m_walletImpl->getDefaultDataDir()) + "/haven.log";
+    return QString::fromStdString(m_walletImpl->getDefaultDataDir()) + "/freehaven.log";
 }
 
 QString Wallet::getWalletLogPath() const
 {
-    return QCoreApplication::applicationDirPath() + "/haven-wallet-gui.log";
+    return QCoreApplication::applicationDirPath() + "/freehaven-wallet-gui.log";
 }
 
 Wallet::Wallet(Monero::Wallet *w, QObject *parent)
