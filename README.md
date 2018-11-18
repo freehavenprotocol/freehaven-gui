@@ -8,7 +8,7 @@ Copyright (c) 2014-2017, The Monero Project
 
 ## Resources
 
-- Web: N/A
+- Web: http://freehavenprotocol.space/
 - Reddit: N/A
 - GitHub: [https://github.com/freehavenprotocol/haven](https://github.com/freehavenprotocol/freehaven)
 
